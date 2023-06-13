@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700&family=Oswald:wght@200;300;400;500;600&display=swap');
 
-/* @media (max-width: 768px) or (orientation: landscape){
-
-    header { 
-        flex-direction: column;
-        height: auto;
-        padding:40px
-    }
-    
-    header div:first-child, header div:nth-child(2){ width: 100%;}
-    } 
-*/
-
 * {box-sizing: border-box;}
 
 body {margin: 0; font-family: 'Montserrat', sans-serif;}
@@ -65,9 +53,9 @@ section {padding-top: 1%; padding-bottom: 3%;}
 
 main {width: 200px;
     height: 1240px;
-    background-color: rgb(255, 255, 193);
+    background-color: rgb(251, 251, 203);
     transform:translateX(0, 0);
-    transition: background-color 2000ms 2s cubic-bezier(.01,.99,.9,-0.12), transform 3s ease-in-out;}
+    transition: background-color 2000ms 2s cubic-bezier(.01,.99,.9,-0.12), transform 1s ease-in-out;}
     
 main:hover {background-color: white;
     transform: translateX(50px);}
